@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>完形填空练习 - 大学艺体专业</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .passage {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .blank {
+            position: relative;
+            display: inline-block;
+        }
+        select {
+            padding: 5px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+            background-color: white;
+            cursor: pointer;
+        }
+        .submit-btn {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .submit-btn:hover {
+            background-color: #2980b9;
+        }
+        .result {
+            display: none;
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #e8f4fc;
+            border-radius: 8px;
+        }
+        .correct {
+            color: #27ae60;
+            font-weight: bold;
+        }
+        .incorrect {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        .explanation {
+            margin-top: 5px;
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+        .translation {
+            background-color: #f0f0f0;
+            padding: 15px;
+            border-left: 4px solid #3498db;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>完形填空练习 - 生活与环保</h1>
+    
+    <div class="passage">
+        <p>Many <span class="blank"><select id="blank1">
+            <option value="">选择</option>
+            <option value="city-dwellers">city-dwellers</option>
+            <option value="agents">agents</option>
+            <option value="utilities">utilities</option>
+            <option value="properties">properties</option>
+        </select></span> dream of leaving the busy urban life behind and living <span class="blank"><select id="blank2">
+            <option value="">选择</option>
+            <option value="off the grid">off the grid</option>
+            <option value="in use">in use</option>
+            <option value="overall">overall</option>
+            <option value="whatsoever">whatsoever</option>
+        </select></span>. They want to <span class="blank"><select id="blank3">
+            <option value="">选择</option>
+            <option value="slow down">slow down</option>
+            <option value="set about">set about</option>
+            <option value="go out">go out</option>
+            <option value="learn of">learn of</option>
+        </select></span> and become more self-sufficient. To <span class="blank"><select id="blank4">
+            <option value="">选择</option>
+            <option value="accomplish">accomplish</option>
+            <option value="generate">generate</option>
+            <option value="inquire">inquire</option>
+            <option value="adjust">adjust</option>
+        </select></span> this goal, they often <span class="blank"><select id="blank5">
+            <option value="">选择</option>
+            <option value="set about">set about</option>
+            <option value="put in">put in</option>
+            <option value="haul">haul</option>
+            <option value="toss">toss</option>
+        </select></span> finding a suitable <span class="blank"><select id="blank6">
+            <option value="">选择</option>
+            <option value="property">property</option>
+            <option value="system">system</option>
+            <option value="laundry">laundry</option>
+            <option value="trash">trash</option>
+        </select></span> in the countryside.</p>
+
+        <p>Living sustainably requires understanding the <span class="blank"><select id="blank7">
+            <option value="">选择</option>
+            <option value="ins and outs">ins and outs</option>
+            <option value="adjustment">adjustment</option>
+            <option value="setback">setback</option>
+            <option value="addition">addition</option>
+        </select></span> of renewable energy systems. These systems <span class="blank"><select id="blank8">
+            <option value="">选择</option>
+            <option value="consist of">consist of</option>
+            <option value="are familiar with">are familiar with</option>
+            <option value="appreciate">appreciate</option>
+            <option value="locate">locate</option>
+        </select></span> solar panels, wind turbines, and batteries. It's important not to <span class="blank"><select id="blank9">
+            <option value="">选择</option>
+            <option value="take...for granted">take...for granted</option>
+            <option value="learn of">learn of</option>
+            <option value="recycle">recycle</option>
+            <option value="inquire">inquire</option>
+        </select></span> these <span class="blank"><select id="blank10">
+            <option value="">选择</option>
+            <option value="utilities">utilities</option>
+            <option value="properties">properties</option>
+            <option value="laundries">laundries</option>
+            <option value="trashes">trashes</option>
+        </select></span> as they require regular maintenance.</p>
+
+        <p>Daily chores like <span class="blank"><select id="blank11">
+            <option value="">选择</option>
+            <option value="laundry">laundry</option>
+            <option value="trash">trash</option>
+            <option value="recycle">recycle</option>
+            <option value="adjustment">adjustment</option>
+        </select></span> and waste management become more significant. <span class="blank"><select id="blank12">
+            <option value="">选择</option>
+            <option value="In addition">In addition</option>
+            <option value="Overall">Overall</option>
+            <option value="Whatsoever">Whatsoever</option>
+            <option value="Diligent">Diligent</option>
+        </select></span>, one must be <span class="blank"><select id="blank13">
+            <option value="">选择</option>
+            <option value="diligent">diligent</option>
+            <option value="organic">organic</option>
+            <option value="available">available</option>
+            <option value="familiar">familiar</option>
+        </select></span> about separating <span class="blank"><select id="blank14">
+            <option value="">选择</option>
+            <option value="organic">organic</option>
+            <option value="available">available</option>
+            <option value="overall">overall</option>
+            <option value="whatsoever">whatsoever</option>
+        </select></span> waste from recyclables, and not just <span class="blank"><select id="blank15">
+            <option value="">选择</option>
+            <option value="toss">toss</option>
+            <option value="haul">haul</option>
+            <option value="generate">generate</option>
+            <option value="locate">locate</option>
+        </select></span> everything into the same bin.</p>
+    </div>
+
+    <button class="submit-btn" onclick="checkAnswers()">提交答案</button>
+
+    <div class="result" id="result">
+        <h2>你的答案与解析</h2>
+        <div class="translation" id="translation"></div>
+        <div id="answer-feedback"></div>
+    </div>
+
+    <script>
+        function checkAnswers() {
+            const correctAnswers = {
+                blank1: "city-dwellers",
+                blank2: "off the grid",
+                blank3: "slow down",
+                blank4: "accomplish",
+                blank5: "set about",
+                blank6: "property",
+                blank7: "ins and outs",
+                blank8: "consist of",
+                blank9: "take...for granted",
+                blank10: "utilities",
+                blank11: "laundry",
+                blank12: "In addition",
+                blank13: "diligent",
+                blank14: "organic",
+                blank15: "toss"
+            };
+
+            const translationText = `
+                <p>许多城市居民梦想离开繁忙的都市生活，过着与世隔绝的生活。他们想要放慢节奏，变得更加自给自足。为了实现这个目标，他们通常开始寻找乡村合适的房产。</p>
+                <p>可持续生活需要了解可再生能源系统的方方面面。这些系统由太阳能板、风力涡轮机和电池组成。重要的是不要把这些公用设施视为理所当然，因为它们需要定期维护。</p>
+                <p>日常家务如洗衣和废物管理变得更加重要。此外，一个人必须勤勉地将有机废物与可回收物分开，而不是把所有东西都扔进同一个垃圾桶。</p>
+            `;
+
+            let feedbackHtml = "";
+            let allCorrect = true;
+
+            for (let i = 1; i <= 15; i++) {
+                const blankId = "blank" + i;
+                const userAnswer = document.getElementById(blankId).value;
+                const correctAnswer = correctAnswers[blankId];
+                
+                const isCorrect = userAnswer === correctAnswer;
+                if (!isCorrect) allCorrect = false;
+
+                feedbackHtml += `<p>第${i}题: 
+                    <span class="${isCorrect ? 'correct' : 'incorrect'}">${userAnswer || '未选择'}</span>
+                    ${!isCorrect ? ` → <span class="correct">正确答案: ${correctAnswer}</span>` : ''}
+                    <div class="explanation">${getExplanation(i, correctAnswer)}</div>
+                </p>`;
+            }
+
+            document.getElementById("translation").innerHTML = "<h3>中文翻译:</h3>" + translationText;
+            document.getElementById("answer-feedback").innerHTML = feedbackHtml;
+            document.getElementById("result").style.display = "block";
+
+            if (allCorrect) {
+                alert("恭喜你！所有答案都正确！");
+            } else {
+                alert("已完成检查！请查看下面的答案解析。");
+            }
+        }
+
+        function getExplanation(questionNum, correctAnswer) {
+            const explanations = {
+                1: "城市居民(city-dwellers)指生活在城市里的人，与后文离开城市生活形成对比。",
+                2: "off the grid指脱离电网、独立生活的状态，符合上下文语境。",
+                3: "slow down表示放慢生活节奏，是城市人向往乡村生活的主要原因之一。",
+                4: "accomplish表示实现目标，与goal搭配使用。",
+                5: "set about doing sth.表示开始做某事，符合开始寻找房产的语境。",
+                6: "property指房产，是乡村生活所需的物质基础。",
+                7: "ins and outs指细节和方方面面，与understanding搭配。",
+                8: "consist of表示由...组成，描述系统的组成部分。",
+                9: "take...for granted是固定搭配，表示视为理所当然。",
+                10: "utilities指公用设施，如水电等生活必需设施。",
+                11: "laundry指洗衣，是日常家务的一部分。",
+                12: "In addition表示此外，用于补充说明。",
+                13: "diligent表示勤勉的，描述处理垃圾应有的态度。",
+                14: "organic waste指有机垃圾，需要与可回收物分开处理。",
+                15: "toss表示随意丢弃，与认真分类形成对比。"
+            };
+            return explanations[questionNum] || "";
+        }
+    </script>
+</body>
+</html>
